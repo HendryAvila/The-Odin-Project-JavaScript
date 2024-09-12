@@ -13,7 +13,7 @@ Write a program that allows the user to enter a number, print each number betwee
 */
 
 
-let userNumber = parseInt(prompt("please enter your number"))
+/* let userNumber = parseInt(prompt("please enter your number"))
 
 for (let index = 1; index <= userNumber; index++) {
     
@@ -30,6 +30,26 @@ for (let index = 1; index <= userNumber; index++) {
         console.log(index)
     }
 
+} */
+/* 
+for (let index = "#"; index.length < 30; index+= '#') {
+        console.log(index)
+    
+} */
+
+function countBss(string, char){
+    let counter = 0
+    for (let index = 0; index < string.length; index++) {
+        if (string[index] === char){
+            counter++
+        }
+        else{
+            console.log('ninguna')
+        }
+        
+    }
+    console.log(`la cantidad de ${char} que contiene el string es: ${counter}`)
 }
 
+let ount = countBss('Hola Holo Holi', 'H')
 
