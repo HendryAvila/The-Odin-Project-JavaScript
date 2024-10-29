@@ -13,11 +13,15 @@ content.style.cssText = 'color: white; background-color: black; padding: 15px; o
 content.classList.add('content')
 container.appendChild(content)
 
+
 /*Creating an node to add in the DOOM !this dont change de html!*/
 const text = document.createElement('h2')
+
 /*to add a class to the node we created*/
 text.classList.add('content__header')
+
 text.textContent = "Hi im the h2"
+
 /*to add the node we created to a parend, !will be inside his parent!*/
 content.appendChild(text)
 

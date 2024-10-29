@@ -1,4 +1,4 @@
-console.log("-----------String methods-----------------")
+//console.log("-----------String methods-----------------")
 
 
 let phrase = `
@@ -9,49 +9,61 @@ let phrase = `
 let word = "--adding something--"
 let num = 12324
 
-console.log(phrase)
 
 /* JavaScript String Methods
 Name	Description
-charAt()	Returns the character at a specified index (position)
-charCodeAt()	Returns the Unicode of the character at a specified index
-concat()	Returns two or more joined strings
-constructor	Returns the string's constructor function
-endsWith()	Returns if a string ends with a specified value
-fromCharCode()	Returns Unicode values as characters
-includes()	Returns if a string contains a specified value
-indexOf()	Returns the index (position) of the first occurrence of a value in a string
-lastIndexOf()	Returns the index (position) of the last occurrence of a value in a string
-length	Returns the length of a string
-localeCompare()	Compares two strings in the current locale
-match()	Searches a string for a value, or a regular expression, and returns the matches
-prototype	Allows you to add properties and methods to an object
-repeat()	Returns a new string with a number of copies of a string
-replace()	Searches a string for a pattern, and returns a string where the first match is replaced
-replaceAll()	Searches a string for a pattern and returns a new string where all matches are replaced
-search()	Searches a string for a value, or regular expression, and returns the index (position) of the match
-slice()	Extracts a part of a string and returns a new string
-split()	Splits a string into an array of substrings
-startsWith()	Checks whether a string begins with specified characters
-substr()	Extracts a number of characters from a string, from a start index (position)
-substring()	Extracts characters from a string, between two specified indices (positions)
-toLocaleLowerCase()	Returns a string converted to lowercase letters, using the host's locale
-toLocaleUpperCase()	Returns a string converted to uppercase letters, using the host's locale
-toLowerCase()	Returns a string converted to lowercase letters
-toString()	Returns a string or a string object as a string
-toUpperCase()	Returns a string converted to uppercase letters
-trim()	Returns a string with removed whitespaces
-trimEnd()	Returns a string with removed whitespaces from the end
-trimStart()	Returns a string with removed whitespaces from the start
-valueOf()	Returns the primitive value of a string or a string object */
+String.charAt()         // Devuelve el carácter en el índice (posición) especificado.
+String.charCodeAt()     // Devuelve el código Unicode del carácter en el índice especificado.
+String.concat()         // Devuelve dos o más cadenas unidas.
+String.constructor      // Devuelve la función constructora de la cadena.
+String.endsWith()       // Devuelve si una cadena termina con un valor especificado.
+String.fromCharCode()   // Devuelve valores Unicode como caracteres.
+String.includes()      // Devuelve si una cadena contiene un valor especificado.
+String.indexOf()        // Devuelve el índice (posición) de la primera aparición de un valor en una cadena.
+String.lastIndexOf()    // Devuelve el índice (posición) de la última aparición de un valor en una cadena.
+String.length           // Devuelve la longitud de una cadena.
+String.localeCompare()  // Compara dos cadenas en la configuración regional actual.
+String.match()         // Busca un valor o una expresión regular en una cadena y devuelve las coincidencias.
+String.prototype        // Permite añadir propiedades y métodos a un objeto.
+String.repeat()        // Devuelve una nueva cadena con un número de copias de la cadena.
+String.replace()       // Busca un patrón en una cadena y devuelve una cadena donde la primera coincidencia es reemplazada.
+String.replaceAll()    // Busca un patrón en una cadena y devuelve una nueva cadena donde todas las coincidencias son reemplazadas.
+String.search()        // Busca un valor o una expresión regular en una cadena y devuelve el índice (posición) de la coincidencia.
+String.slice()         // Extrae una parte de una cadena y devuelve una nueva cadena.
+String.split()         // Divide una cadena en un array de subcadenas.
+String.startsWith()    // Verifica si una cadena comienza con los caracteres especificados.
+String.substr()        // Extrae un número de caracteres de una cadena, desde un índice de inicio.
+String.substring()     // Extrae caracteres de una cadena, entre dos índices (posiciones) especificados.
+String.toLocaleLowerCase() // Devuelve una cadena convertida a minúsculas, usando la configuración regional del host.
+String.toLocaleUpperCase() // Devuelve una cadena convertida a mayúsculas, usando la configuración regional del host.
+String.toLowerCase()   // Devuelve una cadena convertida a minúsculas.
+String.toString()      // Devuelve una cadena o un objeto cadena como cadena.
+String.toUpperCase()   // Devuelve una cadena convertida a mayúsculas.
+String.trim()          // Devuelve una cadena con los espacios en blanco eliminados.
+String.trimEnd()       // Devuelve una cadena con los espacios en blanco eliminados del final.
+String.trimStart()     // Devuelve una cadena con los espacios en blanco eliminados del inicio.
+String.valueOf()       // Devuelve el valor primitivo de una cadena o un objeto cadena.*/
 
 
-console.log(word.repeat(2))
-console.log(phrase.length)
-console.log(word.replace("a", "kkkk"))
-console.log(word.search("t"))
-console.log(phrase.slice(200, -1))
-console.log(phrase.split(" "))
-console.log(word.toLocaleUpperCase())
-console.log(num.toString())
-console.log(phrase.trim())
+// console.log("------------------------------")
+// console.log(word.repeat(2))
+// console.log("------------------------------")
+// console.log(phrase.length)
+// console.log("------------------------------")
+// console.log(word.replace("a", "kkkk"))
+// console.log("------------------------------")
+// console.log(word.search("t"))
+// console.log("------------------------------")
+// console.log(phrase.slice(200, -1))
+// console.log("------------------------------")
+// console.log(phrase.split(" "))
+// console.log("------------------------------")
+// console.log(word.toLocaleUpperCase())
+// console.log("------------------------------")
+// console.log(num.toString())
+// console.log("------------------------------")
+// console.log(phrase.trim())
+// console.log("------------------------------")
+
+
+export {num, phrase};

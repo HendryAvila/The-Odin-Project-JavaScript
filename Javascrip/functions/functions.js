@@ -42,9 +42,6 @@ console.log(min2(10001, 5000))
 let summ = (a,b) => a + b
 
 //--------------------------
-
-
-
 function plusSeven(n){
     return n + 7
 }
@@ -57,3 +54,5 @@ function lastletter(string){
 }
 
 console.log(lastletter("abcd"))
+
+//----------------DALTO

@@ -1,25 +1,3 @@
-/* Basic Array Methods
-Array length
-Array toString()
-Array at()
-Array join()
-Array pop()
-Array push()
-
-See Also:
-Search Methods
-Sort Methods
-Iteration Methods	Array shift()
-Array unshift()
-Array delete()
-Array concat()
-Array copyWithin()
-Array flat()
-Array splice()
-Array toSpliced()
-Array slice() */
-
-
 
 const numbers = [1,2,5,1,3,10,50,21,100,7]
 const numbers2 = [1111,112,15,111,3,10,50,21,100,7]
@@ -97,7 +75,7 @@ let arr = ["I", "study", "JavaScript", "right", "now"];
 // remove 3 first elements and replace them with another
 arr.splice(0, 3, "Let's", "dance");
 
-alert( arr ) // now ["Let's", "dance", "right", "now"]
+
 
 let arra = ["I", "study", "JavaScript"];
 
@@ -106,7 +84,7 @@ let arra = ["I", "study", "JavaScript"];
 // then insert "complex" and "language"
 arra.splice(2, 0, "complex", "language");
 
-alert( arra ); // "I", "study", "complex", "language", "JavaScript"
+ // "I", "study", "complex", "language", "JavaScript"
 
 //IndexOf
 etarr = [1, 0, false];
@@ -116,3 +94,21 @@ alert( etarr.indexOf(false) ); // 2
 alert( etarr.indexOf(null) ); // -1
 et
 alert( etarr.includes(1) ); // true
+
+
+Array.length        // Devuelve el número de elementos en el array.
+Array.toString()    // Convierte el array en una cadena de texto.
+Array.at()          // Devuelve el elemento en una posición específica (puede ser negativa para contar desde el final).
+Array.join()        // Une todos los elementos del array en una sola cadena, separados por un delimitador.
+Array.pop()         // Elimina el último elemento del array y lo devuelve.
+Array.push()        // Agrega uno o más elementos al final del array y devuelve la nueva longitud del array.
+Array.shift()       // Elimina el primer elemento del array y lo devuelve.
+Array.unshift()     // Agrega uno o más elementos al principio del array y devuelve la nueva longitud del array.
+Array.delete()      // Elimina un elemento en una posición específica (con el índice dado) sin cambiar la longitud del array.
+Array.concat()      // Une dos o más arrays y devuelve un nuevo array.
+Array.copyWithin()  // Copia una sección del array a otra posición dentro del mismo array.
+Array.flat()        // Aplana un array multidimensional en un solo nivel o en el nivel especificado.
+Array.splice()      // Cambia el contenido de un array eliminando, reemplazando o agregando elementos en una posición específica.
+Array.toSpliced()   // Devuelve un nuevo array con los elementos eliminados o reemplazados, dejando el array original sin cambios.
+Array.slice()       // Devuelve una copia superficial de una porción del array en un nuevo array, sin modificar el array original.
+Array.reverse()

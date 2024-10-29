@@ -41,3 +41,6 @@ for (let value of iterable) {
 // 10
 // 20
 // 30
+
+
+// for "in" return the index while for "of" return the value

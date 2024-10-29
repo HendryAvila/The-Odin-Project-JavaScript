@@ -31,7 +31,7 @@ else{
 
 //logical operators
 //is just one is true, will return true, the only way to be false is both are false
-//return the first true value if there is. dont touch the other if fine one
+//return the first true value if there is. dont touch the other if find one
 
 /* The OR || operator does the following:
 

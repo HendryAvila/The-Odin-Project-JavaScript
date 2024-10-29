@@ -1,0 +1,24 @@
+To add/remove elements:
+
+push(...items) – añade elementos al final,
+pop() – extrae un elemento del final,
+shift() – extrae un elemento desde el principio,
+unshift(...items) – Añade elementos al principio.
+splice(pos, deleteCount, ...items) – at index deletes elements and inserts .posdeleteCountitems
+slice(start, end) – creates a new array, copies elements from index till (not inclusive) into it.startend
+concat(...items) – returns a new array: copies all members of the current one and adds to it. If any of is an array, then its elements are taken.itemsitems
+To search among elements:
+indexOf/lastIndexOf(item, pos) – look for starting from position , and return the index or if not found.itempos-1
+includes(value) – returns if the array has , otherwise .truevaluefalse
+find/filter(func) – filter elements through the function, return first/all values that make it return .true
+findIndex is like , but returns the index instead of a value.find
+To iterate over elements:
+forEach(func) – calls for every element, does not return anything.func
+To transform the array:
+map(func) – creates a new array from results of calling for every element.func
+sort(func) – sorts the array in-place, then returns it.
+reverse() – reverses the array in-place, then returns it.
+split/join – convert a string to array and back.
+reduce/reduceRight(func, initial) – calculate a single value over the array by calling for each element and passing an intermediate result between the calls.func
+Additionally:
+Array.isArray(value) checks for being an array, if so returns , otherwise .valuetruefalse
