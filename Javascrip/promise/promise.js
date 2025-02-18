@@ -1,63 +1,63 @@
 
-//const mypromise = new Promise((resolve, rejected) => {
-  //  const success = true;
-    //if(success){
-        //resolve("promise resolved");
-    //}else{
-        //rejected("promise rejected");
-    //}
-//});
+const mypromise = new Promise((resolve, rejected) => {
+    const success = true;
+    if(success){
+        resolve("promise resolved");
+    }else{
+        rejected("promise rejected");
+    }
+});
 
-//mypromise
-//.then(result => console.log(result))
-//.catch(error => console.error(error));
-
-//asyncronous promise
-
-// // function fetchData() {
-// //     return new Promise((resolve, reject) => {
-// //         setTimeout(() => {
-// //             resolve("Data fetched");
-// //         }, 2000);
-// //     });
-// // }
-
-// // fetchData()
-// //     .then(data => console.log("Data:", data))
-// //     .catch(error => console.error("Error:", error));
-
-// // let nombre = "Hendry"
-
-// // const promesa = new Promise((resolve, reject) =>{
-// //     if (nombre != "Hendry") reject("El nombre es incorrecto")
-// //     else resolve("Acertaste!, el nombre es: " + nombre)
-// // })
-
-// // promesa.then((resolve)=>{console.log(resolve)}).catch((reject)=>{console.log(reject)})
-
-// function revisarInventario(number) {
-//     const promesa = new Promise((resolve, reject) => {
-//         if (number >= 10) {
-//             resolve("Stock suficiente, gracias!");
-//         } else {
-//             reject("Stock insuficiente, necesitas más");
-//         }
-//     });
-
-//     return promesa; 
-// }
+mypromise
+.then(result => console.log(result))
+.catch(error => console.error(error));
 
 
-// revisarInventario(10)
-//     .then((mensaje) => {
-//         console.log(mensaje); 
-//     })
-//     .catch((error) => {
-//         console.log(error); 
-//     });
+
+ // function fetchData() {
+ //     return new Promise((resolve, reject) => {
+ //         setTimeout(() => {
+ //             resolve("Data fetched");
+ //         }, 2000);
+ //     });
+ // }
+
+ // fetchData()
+ //     .then(data => console.log("Data:", data))
+ //     .catch(error => console.error("Error:", error));
+
+ // let nombre = "Hendry"
+
+ // const promesa = new Promise((resolve, reject) =>{
+ //     if (nombre != "Hendry") reject("El nombre es incorrecto")
+ //     else resolve("Acertaste!, el nombre es: " + nombre)
+ // })
+
+ // promesa.then((resolve)=>{console.log(resolve)}).catch((reject)=>{console.log(reject)})
+
+function revisarInventario(number) {
+    const promesa = new Promise((resolve, reject) => {
+        if (number >= 10) {
+            resolve("Stock suficiente, gracias!");
+         } else {
+            reject("Stock insuficiente, necesitas más");
+        }
+    });
+
+    return promesa; 
+}
 
 
- function descargarDatos() {
+revisarInventario(10)
+        .then((mensaje) => {
+            console.log(mensaje); 
+        })
+        .catch((error) => {
+        console.log(error); 
+});
+
+
+function descargarDatos() {
     
     return new Promise((resolve, reject) => {
         

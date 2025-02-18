@@ -54,3 +54,30 @@ fetch('https://jsonplaceholder.typicode.com/posts/1', {
     .then((json) => console.log(json));     
     
     console.log("--------------------------------------------")
+    console.log("-------------------EJEMPLO-------------------------")
+
+    const server = {
+      people: [
+        {name: "odin",
+         age: 20 
+        },
+        {
+          name: "Thor",
+          age: 35
+        },
+        {
+          name: "Freyja",
+          age: 29
+        },
+      ],
+
+      getPeople(){
+        return new Promise((resolve, reject) =>{
+          //simulating a delayed server call
+
+          setTimeout(()=>{
+            resolve(this.people)
+          }, 2000)
+        })
+      }
+    }
